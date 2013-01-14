@@ -1,0 +1,5 @@
+@import "liftr/jquery";
+
+@include load-js("jquery-extra-validators", "jquery-extra-validators/js/must-be-checked");
+
+@include lifted("jquery-extra-validators");
